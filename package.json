@@ -5,7 +5,7 @@
   "repository": "https://github.com/bttmly/nba.git",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "mocha"
   },
   "author": "Nick Bottomley",
   "license": "MIT",
@@ -27,15 +27,17 @@
     "lodash.mapkeys": "^3.8.0",
     "lodash.pick": "^3.1.0",
     "minimist": "^1.2.0",
-    "mocha": "^8.4.0",
+    "mocha": "^10.7.3",
     "nba-client-template": "5.1.0",
-    "node-fetch": "2.6.1",
-    "url": "^0.11.0"
+    "node-fetch": "^2.7.0",
+    "serve-static": "^1.15.0",
+    "url": "^0.11.0",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "eslint": "^6.0.1",
     "expect": "^1.20.2",
-    "node-static": "^0.7.11",
+    "nock": "^13.5.5",
     "pify": "^4.0.1",
     "rollup": "^1.19.3",
     "sinon": "^1.10.3"
